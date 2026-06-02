@@ -10,58 +10,70 @@
         h1 { color: #1a73e8; margin-bottom: 5px; }
         .path-info { font-size: 14px; color: #666; margin-bottom: 20px; padding: 8px; background: #e8f0fe; border-radius: 5px; display: inline-block; }
         .timetable-box { font-size: 16px; color: #333; padding: 20px; background: #fafafa; border: 1px solid #ddd; border-radius: 5px; text-align: left; white-space: pre-wrap; }
+        .btn-group { margin-top: 20px; }
+        .btn { display: inline-block; padding: 10px 20px; margin: 0 10px; background: #1a73e8; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .btn.bio { background: #34a853; }
     </style>
 </head>
 <body>
 
     <div class="card">
-        <!-- 1. 주소에 따라 바뀔 타이틀 제목 -->
         <h1 id="schedule-title">시간표 로딩 중...</h1>
         <div id="current-path" class="path-info">접속 경로 확인 중...</div>
         
-        <!-- 2. JSON 데이터가 출력될 공간 -->
+        <!-- 데이터 또는 메인 안내가 출력될 공간 -->
         <div id="timetable-content" class="timetable-box">데이터를 불러오는 중입니다...</div>
     </div>
 
     <script>
-        // [핵심] 1. 404.html을 통해 우회 접속되었는지 확인하고 주소창 복원하기
+        // 1. 404.html을 통해 리다이렉트되어 들어왔는지 체크하고 주소 복원
         let currentPath = window.location.pathname;
         const redirectedPath = sessionStorage.getItem('redirect_path');
         
         if (redirectedPath) {
             currentPath = redirectedPath;
             sessionStorage.removeItem('redirect_path');
-            // 사용자가 처음 입력한 주소(/a_site 또는 /b_site)를 주소창에 그대로 고정시킵니다.
             window.history.replaceState(null, null, currentPath);
         }
 
-        // 화면에 현재 인식한 경로를 보여줍니다.
         document.getElementById('current-path').innerText = `인식된 웹 경로: ${currentPath}`;
 
-        // 2. 주소창 경로에 따라 불러올 JSON 파일 분기 처리
-        let jsonFile = 'schedule-a.json'; // 기본값 (a_site)
+        // 2. 경로에 따른 분기 처리 (기본 페이지 기능 추가)
+        // 주소 뒤에 아무것도 없거나(/) index.html 일 때 기본 화면 출력
+        if (currentPath === '/' || currentPath === '' || currentPath.includes('index.html')) {
+            document.getElementById('schedule-title').innerText = "⏱️ 통합 시간표 시스템 메인";
+            document.getElementById('timetable-content').innerHTML = `
+                <p style="text-align:center; font-size:16px;">보기를 원하는 시간표 서비스를 선택해 주세요.</p>
+                <div class="btn-group" style="text-align:center;">
+                    <a href="a_site" class="btn">Power 시간표 바로가기</a>
+                    <a href="b_site" class="btn bio">Bio 시간표 바로가기</a>
+                </div>
+            `;
+        } else {
+            // 주소 뒤에 특정 경로가 있을 때 JSON 파일 매핑
+            let jsonFile = 'schedule-a.json'; // 기본값 (a_site)
 
-        if (currentPath.includes('/b_site')) {
-            jsonFile = 'schedule-b.json'; // b_site 주소일 때
+            if (currentPath.includes('/b_site')) {
+                jsonFile = 'schedule-b.json';
+            }
+
+            // 3. 결정된 JSON 파일 읽어와서 화면에 출력
+            fetch(jsonFile)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`[${jsonFile}] 파일이 서버에 없습니다. 파이썬 변환을 먼저 실행해 주세요.`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('schedule-title').innerText = data.title;
+                    document.getElementById('timetable-content').innerText = JSON.stringify(data.timetable, null, 4);
+                })
+                .catch(err => {
+                    document.getElementById('schedule-title').innerText = "안내";
+                    document.getElementById('timetable-content').innerText = err.message;
+                });
         }
-
-        // 3. 결정된 JSON 파일을 불러와서 화면에 출력
-        fetch(jsonFile)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`[${jsonFile}] 파일이 서버에 없습니다. 파이썬 변환을 먼저 실행해 주세요.`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                // JSON 안의 title과 내용을 화면에 매핑
-                document.getElementById('schedule-title').innerText = data.title;
-                document.getElementById('timetable-content').innerText = JSON.stringify(data.timetable, null, 4);
-            })
-            .catch(err => {
-                document.getElementById('schedule-title').innerText = "안내";
-                document.getElementById('timetable-content').innerText = err.message;
-            });
     </script>
 
 </body>
