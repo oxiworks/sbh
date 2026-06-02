@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실시간 시간표 서비스</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; background: #f0f2f5; }
+        .card { background: white; max-width: 600px; margin: 0 auto; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #1a73e8; }
+        .path-info { font-size: 14px; color: #666; margin-bottom: 20px; }
+        .timetable-box { font-size: 16px; color: #333; padding: 20px; background: #fafafa; border: 1px solid #ddd; border-radius: 5px; text-align: left; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1 id="schedule-title">시간표 로딩 중...</h1>
+        <div id="current-path" class="path-info">접속 경로 확인 중...</div>
+        <div id="timetable-content" class="timetable-box">데이터를 불러오는 중입니다...</div>
+    </div>
+
+    <script>
+        // 1. 404.html을 통해 리다이렉트되어 들어왔는지 체크하고 주소 복원
+        let currentPath = window.location.pathname;
+        const redirected = sessionStorage.getItem('redirect_path');
+        if (redirected) {
+            currentPath = redirected;
+            sessionStorage.removeItem('redirect_path');
+            # 브라우저 주소창의 글자를 사용자가 처음 입력한 /a_site 또는 /b_site 상태로 고정시킵니다.
+            window.history.replaceState(null, null, currentPath);
+        }
+
+        document.getElementById('current-path').innerText = `현재 접속 경로: ${currentPath}`;
+
+        // 2. 경로(pathname)에 따라 불러올 JSON 파일 분기 조건문
+        let jsonFile = 'schedule-a.json'; // 기본값
+
+        if (currentPath.includes('/b_site')) {
+            jsonFile = 'schedule-b.json';
+        }
+
+        // 3. 결정된 JSON 파일 읽어와서 화면에 뿌리기
+        fetch(jsonFile)
+            .then(response => {
+                if(!response.ok) throw new Error();
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('schedule-title').innerText = data.title;
+                document.getElementById('timetable-content').innerText = JSON.stringify(data.timetable, null, 4);
+            })
+            .catch(err => {
+                document.getElementById('timetable-content').innerText = "아직 시간표 데이터가 서버에서 생성되지 않았습니다. 파이썬 변환을 먼저 실행해 주세요.";
+            });
+    </script>
+
+</body>
+</html>
+
