@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ntfy 알림 설정 안내 가이드</title>
+    <title>시설팀 시간표 ntfy 알림 설정 안내 가이드</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
         </div>
     </header>
 
-    <main class="max-w-xl mx-auto px-4 py-10 pb-24">
+    <main class="max-w-xl mx-auto px-4 py-10 pb-36">
         <div class="space-y-12">
 
             <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
@@ -75,12 +75,22 @@
                 <p class="text-xs text-slate-400 mt-1">이제 정상적으로 알림 메시지를 받아보실 수 있습니다.</p>
             </div>
 
+            <!-- 새로 추가된 ntfy 앱 설명 및 발송 시간 안내 섹션 -->
+            <section class="bg-slate-100 border border-slate-200 rounded-2xl p-5 text-xs text-slate-600 space-y-2 leading-relaxed">
+                <p class="font-semibold text-slate-800 text-sm">ℹ️ 알림 서비스 안내</p>
+                <p><span class="font-mono text-blue-600 font-semibold">ntfy.sh</span>는 간단한 알림 송수신 앱입니다.</p>
+                <ul class="list-disc pl-4 space-y-1 mt-1 text-slate-500">
+                    <li><span class="font-medium text-slate-700">"주간, 당직" 근무 시:</span> 오전 7시 반쯤 근무 담당 내역을 알림으로 보내줍니다.</li>
+                    <li><span class="font-medium text-slate-700">"야간" 근무 시:</span> 저녁 4시 반쯤 알림을 보내주고 있습니다.</li>
+                </ul>
+            </section>
+
         </div>
     </main>
 
     <footer class="bg-slate-100 border-t border-slate-200 py-6 text-center text-xs text-slate-400 fixed bottom-0 left-0 right-0 z-50">
         <p>© 2026 ntfy Notification Guide Guide. All rights reserved.</p>
-    </footer
+    </footer>
 
 </body>
 </html>
