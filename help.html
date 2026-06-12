@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ntfy 알림 설정 안내 가이드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <header class="bg-white border-b border-slate-200 py-8 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <span class="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full mb-3">안드로이드 가이드</span>
+            <h1 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">ntfy 알림 앱 설정 안내</h1>
+            <p class="mt-2 text-slate-500 text-sm md:text-base">스마트폰에서 알림을 받기 위한 ntfy 앱 설치 및 구독 방법입니다. 차근차근 따라 해 보세요!</p>
+        </div>
+    </header>
+
+    <main class="max-w-xl mx-auto px-4 py-10 pb-24">
+        <div class="space-y-12">
+
+            <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm">1</span>
+                    <h2 class="text-lg font-bold text-slate-900">구글 플레이 스토어에서 앱 설치</h2>
+                </div>
+                <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                    스마트폰에서 <span class="font-semibold text-slate-900">Play 스토어</span>를 실행한 뒤, 검색창에 <span class="bg-slate-100 px-1.5 py-0.5 rounded font-mono text-blue-600 font-semibold">ntfy</span>를 검색하여 설치해 주세요.
+                </p>
+                <div class="w-full h-48 bg-slate-100 border border-dashed border-slate-300 rounded-xl flex flex-col items-center justify-center text-slate-400 p-4 text-center">
+                    <svg class="w-8 h-8 mb-2 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 002-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <span class="text-xs font-medium">[플레이스홀더: 플레이스토어 검색 및 설치 화면 캡처]</span>
+                </div>
+            </section>
+
+            <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm">2</span>
+                    <h2 class="text-lg font-bold text-slate-900">토픽 추가하기</h2>
+                </div>
+                <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                    설치된 ntfy 앱을 실행합니다. 앱이 열리면 화면 우측 하단에 있는 <span class="font-semibold text-blue-600 text-lg">+</span> 모양의 파란색 버튼을 눌러주세요.
+                </p>
+                <div class="w-full h-48 bg-slate-100 border border-dashed border-slate-300 rounded-xl flex flex-col items-center justify-center text-slate-400 p-4 text-center">
+                    <svg class="w-8 h-8 mb-2 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 002-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <span class="text-xs font-medium">[플레이스홀더: 앱 메인 화면 및 하단 + 버튼 안내 캡처]</span>
+                </div>
+            </section>
+
+            <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm">3</span>
+                    <h2 class="text-lg font-bold text-slate-900">토픽 이름 입력 및 구독 완료</h2>
+                </div>
+                <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                    토픽 이름(Topic name) 입력란에 안내받으신 주소인 <span class="font-mono bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded font-semibold text-xs">sbhpower</span> 또는 <span class="font-mono bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded font-semibold text-xs">sbhbio</span>를 정확히 입력한 뒤, 우측 상단의 <span class="font-semibold text-slate-900">구독(Subscribe)</span> 버튼을 눌러 완료합니다.
+                </p>
+                <div class="bg-amber-50 border border-amber-200 text-amber-800 text-xs p-3 rounded-xl mb-4 leading-relaxed">
+                    <strong>💡 참고하세요!</strong> <br>
+                    정확한 영문 소문자로 입력하셔야 정상적으로 알림을 수신할 수 있습니다.
+                </div>
+                <div class="w-full h-48 bg-slate-100 border border-dashed border-slate-300 rounded-xl flex flex-col items-center justify-center text-slate-400 p-4 text-center">
+                    <svg class="w-8 h-8 mb-2 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 002-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <span class="text-xs font-medium">[플레이스홀더: 토픽 입력 및 Subscribe 버튼 클릭 화면 캡처]</span>
+                </div>
+            </section>
+
+            <div class="text-center pt-4">
+                <p class="text-sm text-slate-500 font-medium">🎉 모든 설정이 완료되었습니다!</p>
+                <p class="text-xs text-slate-400 mt-1">이제 정상적으로 알림 메시지를 받아보실 수 있습니다.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-slate-100 border-t border-slate-200 py-6 text-center text-xs text-slate-400 fixed bottom-0 left-0 right-0">
+        <p>© 2026 ntfy Notification Guide Guide. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
