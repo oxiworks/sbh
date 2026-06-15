@@ -1,11 +1,0 @@
---2026-06-12 18:54:30--  https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=500
-images.unsplash.com (images.unsplash.com) 해석 중... 151.101.2.208, 151.101.130.208, 151.101.194.208, ...
-다음으로 연결 중: images.unsplash.com (images.unsplash.com)|151.101.2.208|:443... 연결했습니다.
-HTTP 요청을 보냈습니다. 응답 기다리는 중... 200 OK
-길이: 40055 (39K) [image/jpeg]
-저장 위치: ‘step1-android.png’
-
-step1-android.png               0%[                                                  ]       0  --.-KB/s               step1-android.png             100%[=================================================>]  39.12K  --.-KB/s    / 0.001s   
-
-2026-06-12 18:54:30 (29.8 MB/s) - ‘step1-android.png’ 저장함 [40055/40055]
-
