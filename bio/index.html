@@ -118,6 +118,11 @@
 <body>
 
 <div id="master-wrapper">
+    <div id="serverLinkArea" class="server-link-bar">
+        서버1 : <a id="serverLink1" href="#" target="_blank">loading...</a> &nbsp;|&nbsp; 
+        서버2 : <a id="serverLink2" href="#" target="_blank">loading...</a>
+    </div>
+
     <div class="main-board">
         <div class="top-bar">
             <div class="nav-group">
@@ -143,6 +148,25 @@
     // ==============================================================================
     const DATA_URL = "../script/data/schedule_2026_bio.json";
     // ==============================================================================
+
+
+    // 🌟 1. 파일명에서 팀명을 자동으로 추출해 하이퍼링크를 매핑하는 신규 함수
+    function initServerLinks() {
+        try {
+            const filename = DATA_URL.split('/').pop(); 
+            const teamName = filename.replace("schedule_2026_", "").replace(".json", "").trim();
+
+            const url1 = `https://${teamName}.oxisnail.top`;
+            const url2 = `https://sbh.oxisnail.top/${teamName}`;
+
+            document.getElementById('serverLink1').href = url1;
+            document.getElementById('serverLink1').innerText = url1;
+            document.getElementById('serverLink2').href = url2;
+            document.getElementById('serverLink2').innerText = url2;
+        } catch (e) {
+            console.error("팀명 링크 생성 중 오류:", e);
+        }
+    }
 
     const today = new Date();
     // 로컬 타임존 기준 포맷팅을 위해 슬래시(/) 기반 매핑
@@ -298,6 +322,8 @@
 
     // [중요] 외부 상대 경로 JSON 파일을 비동기 로드하도록 onload 변경
     window.onload = () => {
+        initServerLinks();
+
         fetch(DATA_URL)
             .then(response => {
                 if (!response.ok) throw new Error("JSON 파일을 가져오지 못했습니다.");

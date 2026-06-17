@@ -1,9 +1,9 @@
+import base64
 import os
 import json
 import logging
 import socket  # 호스트네임을 가져오기 위해 추가
 import pandas as pd
-import base64
 import requests  # ntfy 전송을 위해 추가
 from email.header import Header
 
@@ -30,8 +30,8 @@ def setup_logger():
     if not os.path.exists(LOG_DIR):
         os.makedirs(LOG_DIR)
 
-    log_file_path = os.path.join(LOG_DIR, 'timetable_update.log')
-    logger = logging.getLogger("TimetableLogger")
+    log_file_path = os.path.join(LOG_DIR, 'schedule_update.log')
+    logger = logging.getLogger("ScheduleLogger")
     logger.setLevel(logging.INFO)
 
     formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
@@ -66,7 +66,7 @@ def send_ntfy_notification(title, message, logger):
             data=full_message.encode('utf-8'),
             headers={
                 "X-Title": f"=?utf-8?B?{base64_title}?=",  # RFC 2047 규격 적용
-                "Priority": "normal",
+                "Priority": "default",
                 "Tags": "warning,error"
             },
             timeout=10

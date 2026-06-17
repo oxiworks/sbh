@@ -1,0 +1,45 @@
+2026-06-17 14:34:26 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-17 14:34:26 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-17 14:34:27 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-17 14:34:27 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-17 14:34:29 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-17 14:34:29 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-17 15:36:18 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-17 15:36:18 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-17 15:36:20 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-17 15:36:20 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-17 15:36:21 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-17 15:36:21 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-17 15:36:50 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-17 15:36:50 [ERROR] [시간표] schedule_2026_bio.xlsm 처리 중 에러 발생: 필수 엑셀 파일이 존재하지 않습니다: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.xlsm
+Traceback (most recent call last):
+  File "/home/oxisnail/work/git/sbh/script/./schedule_json_gen.py", line 89, in update_schedule_cache
+    raise FileNotFoundError(f"필수 엑셀 파일이 존재하지 않습니다: {file_path}")
+FileNotFoundError: 필수 엑셀 파일이 존재하지 않습니다: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.xlsm
+2026-06-17 15:36:51 [ERROR] [ntfy] 알림 전송 실패 원인: 400 Client Error: Bad Request for url: https://ntfy.sh/oxinotify
+Traceback (most recent call last):
+  File "/home/oxisnail/work/git/sbh/script/./schedule_json_gen.py", line 89, in update_schedule_cache
+    raise FileNotFoundError(f"필수 엑셀 파일이 존재하지 않습니다: {file_path}")
+FileNotFoundError: 필수 엑셀 파일이 존재하지 않습니다: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.xlsm
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oxisnail/work/git/sbh/script/./schedule_json_gen.py", line 74, in send_ntfy_notification
+    res.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://ntfy.sh/oxinotify
+2026-06-17 15:36:51 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-17 15:36:52 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-17 15:36:52 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-17 15:39:59 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-17 15:39:59 [ERROR] [시간표] schedule_2026_bio.xlsm 처리 중 에러 발생: 필수 엑셀 파일이 존재하지 않습니다: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.xlsm
+Traceback (most recent call last):
+  File "/home/oxisnail/work/git/sbh/script/./schedule_json_gen.py", line 89, in update_schedule_cache
+    raise FileNotFoundError(f"필수 엑셀 파일이 존재하지 않습니다: {file_path}")
+FileNotFoundError: 필수 엑셀 파일이 존재하지 않습니다: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.xlsm
+2026-06-17 15:39:59 [INFO] [ntfy] 알림 전송 성공
+2026-06-17 15:39:59 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-17 15:40:01 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-17 15:40:01 [INFO] ================ 시간표 캐시 업데이트 완료 ================
