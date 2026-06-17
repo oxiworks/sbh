@@ -1,0 +1,26 @@
+
+# [고정] 시간표 생성 밑 NTFY 통보 작업
+# SBH 오전 근무표 통보
+29 07 * * * /home/oxisnail/script/sbh_schedule_bio.sh >> /home/oxisnail/script/bio_sch_script.log
+30 07 * * * /home/oxisnail/script/sbh_schedule_power.sh >> /home/oxisnail/script/power_sch_script.log
+# SBH 오후 근무표 통보
+29 16 * * * /home/oxisnail/script/sbh_schedule_bio.sh >> /home/oxisnail/script/bio_sch_script.log
+30 16 * * * /home/oxisnail/script/sbh_schedule_power.sh >> /home/oxisnail/script/power_sch_script.log
+# SBH 웹페이지용 시간표 생성
+58 23 * * * cd /var/www/html/sbh_bio;python3 /var/www/html/sbh_bio/timetable_convert.py
+55 23 * * * cd /var/www/html/sbh_power;python3 /var/www/html/sbh_power/timetable_convert.py
+
+# DDNS UPDATE
+11,56 * * * * sleep 4 ; wget --no-check-certificate -O - https://freedns.afraid.org/dynamic/update.php?dktoVmV3dGpFR1lVNThGU2xEeHg6MjMyNzY5NTU= >> /tmp/freedns_oxifile_mooo_com.log 2>&1 &
+0,45 * * * * sleep 20 ; curl -k -o /tmp/duck.log "https://www.duckdns.org/update?domains=oxifile&token=cc25b0ea-35bf-4182-b217-9ed0b012ca56"
+
+
+
+
+
+
+
+# 개선 중인 작업들
+# 개인 업무 및 팀 미션 통보 스크립트
+05 00 * * * /usr/bin/python3 /home/oxisnail/script/bio_timetable_json.py >> /tmp/bio_timetable_json.log 2>&1
+

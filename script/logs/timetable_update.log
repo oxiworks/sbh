@@ -1,0 +1,14 @@
+2026-06-07 07:09:51 [INFO] [schedule_2026_bio.xlsm] 캐시 업데이트 시작
+2026-06-07 07:09:53 [INFO] [30398] 성공: /home/oxisnail/work/timetable/data/schedule_2026_bio.json (총 366일치 데이터 완료)
+2026-06-07 07:09:53 [INFO] [schedule_2026_power.xlsm] 캐시 업데이트 시작
+2026-06-07 07:09:54 [INFO] [30398] 성공: /home/oxisnail/work/timetable/data/schedule_2026_power.json (총 366일치 데이터 완료)
+2026-06-07 07:56:48 [INFO] ================ 크론 캐시 일원화 배치 시작 ================
+2026-06-07 07:56:48 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-07 07:56:49 [INFO] [시간표] 성공: /home/oxisnail/work/timetable/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-07 07:56:49 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-07 07:56:50 [INFO] [시간표] 성공: /home/oxisnail/work/timetable/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-07 07:56:50 [INFO] [예정업무] 캐시 업데이트 시작
+2026-06-07 07:56:51 [INFO] [예정업무] 성공: /home/oxisnail/work/timetable/data/bio_mission.json (날짜 1건 / 요일 2건 완료)
+2026-06-07 07:56:51 [INFO] [이사정보] 구글 스프레드시트 스크래핑 시작
+2026-06-07 07:56:52 [INFO] [이사정보] 성공: /home/oxisnail/work/timetable/data/bio_move.json (오늘 0건 / 내일 0건 완료)
+2026-06-07 07:56:52 [INFO] ================ 크론 캐시 일원화 배치 완료 ================
