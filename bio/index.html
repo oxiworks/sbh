@@ -138,6 +138,12 @@
 </div>
 
 <script>
+    // ==============================================================================
+    // CONFIGURATION PART (데이터 경로 설정)
+    // ==============================================================================
+    const DATA_URL = "../script/data/schedule_2026_bio.json";
+    // ==============================================================================
+
     const today = new Date();
     // 로컬 타임존 기준 포맷팅을 위해 슬래시(/) 기반 매핑
     const todayStr = `${today.getFullYear()}/${String(today.getMonth() + 1).padStart(2, '0')}/${String(today.getDate()).padStart(2, '0')}`;
@@ -292,7 +298,7 @@
 
     // [중요] 외부 상대 경로 JSON 파일을 비동기 로드하도록 onload 변경
     window.onload = () => {
-        fetch("../script/data/schedule_2026_bio.json")
+        fetch(DATA_URL)
             .then(response => {
                 if (!response.ok) throw new Error("JSON 파일을 가져오지 못했습니다.");
                 return response.json();
