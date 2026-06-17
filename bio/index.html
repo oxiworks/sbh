@@ -88,6 +88,30 @@
         .row-외곽-2 td.is-today::after { border-bottom: 3px solid var(--today-border); border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
         .row-날짜 td.is-today { color: var(--today-border) !important; }
 
+	/* 공지사항 박스 스타일 */
+        .notice-box {
+            background-color: #fff9db;
+            border: 1.5px solid #f1c40f;
+            border-radius: 8px;
+            padding: 12px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 700;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .notice-box a {
+            color: #d35400;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .notice-box a:hover {
+            text-decoration: underline;
+            color: #e67e22;
+        }
+
         .copyright-bar { text-align: right; margin-top: 8px; font-size: 11px; color: #999; }
     </style>
 </head>
@@ -105,6 +129,12 @@
         </div>
         <div id="calendarArea" class="fade-layer"></div>
     </div>
+
+    <div class="notice-box">
+        📢 <a href="https://sbh.oxisnail.top/help.html" target="_blank">ntfy.sh 실시간 알람설정 방법 안내 페이지</a>
+    </div>
+
+    <div class="copyright-bar">Serviced by '<span id="server-hostname">loading...</span>' host</div>
     <div class="copyright-bar">© 2026. oxisnail All rights reserved.</div>
 </div>
 
@@ -273,6 +303,8 @@
                 renderNameSelector();
                 initCalendar(true);
                 adjustScale();
+
+                document.getElementById('server-hostname').innerText = window.location.hostname;
             })
             .catch(error => {
                 console.error("데이터 로드 중 에러 발생:", error);
