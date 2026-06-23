@@ -3,6 +3,7 @@
         "weekday": "5",
         "holiday": "신정",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -20,6 +21,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -37,6 +39,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -54,6 +57,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -71,6 +75,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -88,6 +93,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -105,6 +111,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -122,6 +129,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -139,6 +147,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -156,6 +165,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -173,6 +183,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -190,6 +201,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -207,6 +219,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -224,6 +237,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -241,6 +255,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -258,6 +273,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -275,6 +291,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -292,6 +309,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -309,6 +327,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -326,6 +345,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -343,6 +363,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -360,6 +381,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -377,6 +399,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -394,6 +417,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -411,6 +435,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -428,6 +453,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -445,6 +471,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -462,6 +489,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -479,6 +507,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -496,6 +525,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -513,6 +543,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -530,6 +561,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -547,6 +579,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -564,6 +597,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -581,6 +615,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -598,6 +633,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -615,6 +651,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -632,6 +669,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -649,6 +687,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -666,6 +705,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -683,6 +723,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -700,6 +741,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -717,6 +759,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -734,6 +777,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -751,6 +795,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -768,6 +813,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -785,6 +831,7 @@
         "weekday": "2",
         "holiday": "설휴무",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -802,6 +849,7 @@
         "weekday": "3",
         "holiday": "설날",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -819,6 +867,7 @@
         "weekday": "4",
         "holiday": "설휴무",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -836,6 +885,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -853,6 +903,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -870,6 +921,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -887,6 +939,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -904,6 +957,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -921,6 +975,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -938,6 +993,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -955,6 +1011,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -972,6 +1029,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -989,6 +1047,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1006,6 +1065,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1023,6 +1083,7 @@
         "weekday": "2",
         "holiday": "삼일절(대체)",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1040,6 +1101,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1057,6 +1119,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -1074,6 +1137,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1091,6 +1155,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1108,6 +1173,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1125,6 +1191,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1142,6 +1209,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1159,6 +1227,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -1176,6 +1245,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1193,6 +1263,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1210,6 +1281,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -1227,6 +1299,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1244,6 +1317,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1261,6 +1335,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -1278,6 +1353,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1295,6 +1371,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1312,6 +1389,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -1329,6 +1407,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1346,6 +1425,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1363,6 +1443,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1380,6 +1461,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1397,6 +1479,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1414,6 +1497,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -1431,6 +1515,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1448,6 +1533,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1465,6 +1551,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1482,6 +1569,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1499,6 +1587,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1516,6 +1605,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -1533,6 +1623,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1550,6 +1641,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1567,6 +1659,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -1584,6 +1677,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1601,6 +1695,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1618,6 +1713,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -1635,6 +1731,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1652,6 +1749,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1669,6 +1767,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -1686,6 +1785,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1703,6 +1803,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1720,6 +1821,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1737,6 +1839,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1754,6 +1857,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1771,6 +1875,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -1788,6 +1893,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1805,6 +1911,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1822,6 +1929,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1839,6 +1947,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1856,6 +1965,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1873,6 +1983,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -1890,6 +2001,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1907,6 +2019,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1924,6 +2037,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -1941,6 +2055,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1958,6 +2073,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -1975,6 +2091,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -1992,6 +2109,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2009,6 +2127,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2026,6 +2145,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -2043,6 +2163,7 @@
         "weekday": "6",
         "holiday": "노동절",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2060,6 +2181,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2077,6 +2199,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2094,6 +2217,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2111,6 +2235,7 @@
         "weekday": "3",
         "holiday": "어린이날",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2128,6 +2253,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -2145,6 +2271,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2162,6 +2289,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2179,6 +2307,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2196,6 +2325,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2213,6 +2343,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2230,6 +2361,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -2247,6 +2379,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2264,6 +2397,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2281,6 +2415,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -2298,6 +2433,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2315,6 +2451,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2332,6 +2469,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -2349,6 +2487,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2366,6 +2505,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2383,6 +2523,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -2400,6 +2541,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2417,6 +2559,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2434,6 +2577,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2451,6 +2595,7 @@
         "weekday": "2",
         "holiday": "부처님오신날(대체)",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2468,6 +2613,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2485,6 +2631,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -2502,6 +2649,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2519,6 +2667,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2536,6 +2685,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2553,6 +2703,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2570,6 +2721,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2587,6 +2739,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -2604,6 +2757,7 @@
         "weekday": "4",
         "holiday": "지방선거",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2621,6 +2775,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2638,6 +2793,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -2655,6 +2811,7 @@
         "weekday": "7",
         "holiday": "현충일",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2672,6 +2829,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2689,6 +2847,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -2706,6 +2865,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2723,6 +2883,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2740,6 +2901,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -2757,6 +2919,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2774,6 +2937,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2791,6 +2955,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2808,6 +2973,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2825,6 +2991,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2842,6 +3009,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -2859,6 +3027,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2876,6 +3045,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2893,6 +3063,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2910,6 +3081,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2927,6 +3099,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2944,6 +3117,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -2961,6 +3135,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2978,6 +3153,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -2995,6 +3171,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -3012,6 +3189,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3029,6 +3207,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3046,6 +3225,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -3063,6 +3243,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3080,6 +3261,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3097,6 +3279,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -3114,6 +3297,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3131,6 +3315,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3148,6 +3333,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3165,6 +3351,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3182,6 +3369,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3199,6 +3387,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -3216,6 +3405,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3233,6 +3423,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3250,6 +3441,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3267,6 +3459,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3284,6 +3477,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3301,6 +3495,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -3318,6 +3513,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3335,6 +3531,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3352,6 +3549,7 @@
         "weekday": "6",
         "holiday": "제헌절",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3369,6 +3567,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3386,6 +3585,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3403,6 +3603,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -3420,6 +3621,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3437,6 +3639,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3454,6 +3657,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -3471,6 +3675,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3488,6 +3693,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3505,6 +3711,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3522,6 +3729,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3539,6 +3747,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3556,6 +3765,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -3573,6 +3783,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3590,6 +3801,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3607,6 +3819,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3624,6 +3837,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3641,6 +3855,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3658,6 +3873,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -3675,6 +3891,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3692,6 +3909,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3709,6 +3927,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -3726,6 +3945,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3743,6 +3963,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3760,6 +3981,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -3777,6 +3999,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3794,6 +4017,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3811,6 +4035,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -3828,6 +4053,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3845,6 +4071,7 @@
         "weekday": "7",
         "holiday": "광복절",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3862,6 +4089,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3879,6 +4107,7 @@
         "weekday": "2",
         "holiday": "광복절(대체)",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3896,6 +4125,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3913,6 +4143,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -3930,6 +4161,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3947,6 +4179,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3964,6 +4197,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3981,6 +4215,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -3998,6 +4233,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4015,6 +4251,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -4032,6 +4269,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4049,6 +4287,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4066,6 +4305,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -4083,6 +4323,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4100,6 +4341,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4117,6 +4359,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -4134,6 +4377,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4151,6 +4395,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4168,6 +4413,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -4185,6 +4431,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4202,6 +4449,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4219,6 +4467,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4236,6 +4485,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4253,6 +4503,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4270,6 +4521,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -4287,6 +4539,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4304,6 +4557,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4321,6 +4575,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4338,6 +4593,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4355,6 +4611,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4372,6 +4629,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -4389,6 +4647,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4406,6 +4665,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4423,6 +4683,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -4440,6 +4701,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4457,6 +4719,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4474,6 +4737,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -4491,6 +4755,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4508,6 +4773,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4525,6 +4791,7 @@
         "weekday": "5",
         "holiday": "추석휴무",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4542,6 +4809,7 @@
         "weekday": "6",
         "holiday": "추석",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4559,6 +4827,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4576,6 +4845,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4593,6 +4863,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4610,6 +4881,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4627,6 +4899,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -4644,6 +4917,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4661,6 +4935,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4678,6 +4953,7 @@
         "weekday": "7",
         "holiday": "개천절",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4695,6 +4971,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4712,6 +4989,7 @@
         "weekday": "2",
         "holiday": "개천절(대체)",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4729,6 +5007,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -4746,6 +5025,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4763,6 +5043,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4780,6 +5061,7 @@
         "weekday": "6",
         "holiday": "한글날",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4797,6 +5079,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4814,6 +5097,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4831,6 +5115,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -4848,6 +5133,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4865,6 +5151,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4882,6 +5169,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -4899,6 +5187,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4916,6 +5205,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4933,6 +5223,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4950,6 +5241,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4967,6 +5259,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -4984,6 +5277,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -5001,6 +5295,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5018,6 +5313,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5035,6 +5331,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5052,6 +5349,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5069,6 +5367,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5086,6 +5385,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -5103,6 +5403,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5120,6 +5421,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5137,6 +5439,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -5154,6 +5457,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5171,6 +5475,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5188,6 +5493,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -5205,6 +5511,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5222,6 +5529,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5239,6 +5547,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -5256,6 +5565,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5273,6 +5583,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5290,6 +5601,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5307,6 +5619,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5324,6 +5637,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5341,6 +5655,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -5358,6 +5673,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5375,6 +5691,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5392,6 +5709,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5409,6 +5727,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5426,6 +5745,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5443,6 +5763,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -5460,6 +5781,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5477,6 +5799,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5494,6 +5817,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -5511,6 +5835,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5528,6 +5853,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5545,6 +5871,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -5562,6 +5889,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5579,6 +5907,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5596,6 +5925,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -5613,6 +5943,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5630,6 +5961,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5647,6 +5979,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5664,6 +5997,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5681,6 +6015,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5698,6 +6033,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -5715,6 +6051,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5732,6 +6069,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5749,6 +6087,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5766,6 +6105,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5783,6 +6123,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5800,6 +6141,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -5817,6 +6159,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "정윤준",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5834,6 +6177,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5851,6 +6195,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -5868,6 +6213,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5885,6 +6231,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5902,6 +6249,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",
@@ -5919,6 +6267,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5936,6 +6285,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5953,6 +6303,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "정윤준",
             "글로벌": "이기수",
@@ -5970,6 +6321,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -5987,6 +6339,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6004,6 +6357,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6021,6 +6375,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "허지웅",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6038,6 +6393,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6055,6 +6411,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "허지웅",
             "글로벌": "정윤준",
@@ -6072,6 +6429,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6089,6 +6447,7 @@
         "weekday": "6",
         "holiday": "성탄절",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6106,6 +6465,7 @@
         "weekday": "7",
         "holiday": "",
         "work_type": "휴무",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6123,6 +6483,7 @@
         "weekday": "1",
         "holiday": "",
         "work_type": "당직",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6140,6 +6501,7 @@
         "weekday": "2",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6157,6 +6519,7 @@
         "weekday": "3",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "박성현",
             "글로벌": "허지웅",
@@ -6174,6 +6537,7 @@
         "weekday": "4",
         "holiday": "",
         "work_type": "야간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6191,6 +6555,7 @@
         "weekday": "5",
         "holiday": "",
         "work_type": "비번",
+        "staffroom": "",
         "day_workers": {
             "지원동": "-",
             "글로벌": "-",
@@ -6208,6 +6573,7 @@
         "weekday": "6",
         "holiday": "",
         "work_type": "주간",
+        "staffroom": "",
         "day_workers": {
             "지원동": "이기수",
             "글로벌": "박성현",

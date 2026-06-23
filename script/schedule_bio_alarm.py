@@ -125,15 +125,27 @@ def send_ntfy_message(url, message):
         log_message(f"- NTFY.SH 통신 에러: {str(e)}")
         return False
 
-def make_weekday_str(date_str, weekday_num):
-    """'2026/12/29' 포맷과 weekday 번호를 조합하여 '12/29(화)' 형태의 문자열 생성"""
+def make_weekday_str(date_str, weekday_val):
     try:
         parts = date_str.split('/')
         month_day = f"{parts[1]}/{parts[2]}"
+        val_str = str(weekday_val).strip()
         
-        # weekday 매핑 (1:월, 2:화, 3:수, 4:목, 5:금, 6:토, 7:일)
-        weekday_map = {"1": "월", "2": "화", "3": "수", "4": "목", "5": "금", "6": "토", "7": "일"}
-        w_char = weekday_map.get(str(weekday_num), "")
+        if val_str in ["월", "화", "수", "목", "금", "토", "일"]:
+            return f"{month_day}({val_str})"
+
+        # 엑셀 표준 요일 규격 반영 (1: 일, 2: 월, 3: 화, 4: 수, 5: 목, 6: 금, 7: 토)
+        weekday_map = {
+            "1": "일",
+            "2": "월",
+            "3": "화",
+            "4": "수",
+            "5": "목",
+            "6": "금",
+            "7": "토"
+        }
+        w_char = weekday_map.get(val_str, "")
+        
         return f"{month_day}({w_char})" if w_char else month_day
     except:
         return date_str
@@ -188,7 +200,7 @@ def process_schedule(target_day, target_hour, is_test=False):
     # 5. 매칭 성공 시 동적 텍스트 메시지 조합 및 발송
     if send_flag:
         # 근무 형태에 따른 근무자 딕셔너리 타겟팅 선택 (주간/당직이면 day_workers, 야간이면 night_workers)
-        worker_key = "night_workers" if work_type == "야간" else "day_workers"
+        worker_key = "night_workers" if work_type in ["야간", "당직"] else "day_workers"
         workers = day_data.get(worker_key, {})
 
         # 일자 표기 변환 (예: 12/29(화))
@@ -203,7 +215,7 @@ def process_schedule(target_day, target_hour, is_test=False):
             f"▸ 외      곽1 : {workers.get('외곽1', '-')}\n"
             f"▸ 외      곽2 : {workers.get('외곽2', '-')}\n\n"
             f"-------------------------\n"
-            f"🏠 용역원실   : {workers.get('외곽1', '-')}\n"
+            f"🏠 용역원실   : {day_data.get('staffroom', '-')}\n"
             f"-------------------------\n\n"
             f"🔗 시간표 확인\n"
             f"https://{TEAM_NAME}.oxisnail.top\n"

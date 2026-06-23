@@ -106,10 +106,13 @@ def update_schedule_cache(logger):
                 day_vals = row[['주간근무지원동', '주간근무글로벌', '주간근무외곽1', '주간근무외곽2']].values
                 night_vals = row[['야간근무지원동', '야간근무글로벌', '야간근무외곽1', '야간근무외곽2']].values
 
+                staffroom_val = str(row['용역원실취침']) if '용역원실취침' in row and not pd.isna(row['용역원실취침']) else ""
+
                 schedule_dict[date_key] = {
                     "weekday": str(row['요일']) if not pd.isna(row['요일']) else "",
                     "holiday": str(row['공휴일']) if not pd.isna(row['공휴일']) else "",
                     "work_type": str(row['근무형태']),
+                    "staffroom": staffroom_val,  # 2. JSON 구조에 staffroom 추가
                     "day_workers": {pos: str(name) for pos, name in zip(positions, day_vals)},
                     "night_workers": {pos: str(name) for pos, name in zip(positions, night_vals)}
                 }

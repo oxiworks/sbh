@@ -37,3 +37,9 @@ power, bio 한 스크립트 처리 개선
    - systemd 에 정의되어 데몬형태로 기동 1분마다 상태 확인
    - 지정된 팀의 당일 근무형태에 따른 지정시간 근무위치 알람 전송
    - 에러 oxinofity, logs 처리는 위와 동일 
+
+
+
+58 23 * * * /usr/bin/python3 /home/oxisnail/work/git/sbh/script/schedule_bio_alarm.py
+
+
