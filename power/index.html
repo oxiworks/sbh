@@ -250,7 +250,10 @@
 
             for (let p = startDay - 1; p >= 0; p--) daysArray.push(new Date(viewYear, viewMonth - 2, prevLast.getDate() - p));
             for (let d = 1; d <= last.getDate(); d++) daysArray.push(new Date(viewYear, viewMonth - 1, d));
-            while (daysArray.length % 7 !== 0) daysArray.push(new Date(viewYear, viewMonth, (daysArray.length % 7 == 0 ? 0 : daysArray.length % 7) + 1));
+            let nextMonthDayCounter = 1;
+            while (daysArray.length % 7 !== 0) {
+                daysArray.push(new Date(viewYear, viewMonth, nextMonthDayCounter++));
+            }
 
             for (let i = 0; i < daysArray.length; i += 7) {
                 const weekData = daysArray.slice(i, i + 7);
@@ -286,21 +289,33 @@
                             cellText = holidayName;
                         } else if (label === "근무") {
                             cellText = shiftType;
+
                         } else {
-                            // 근무 형태에 따른 근무자 분기 처리 로직 (주간 vs 야간/비번 등)
                             const jsonPosKey = posMapping[label];
                             const workerGroup = (shiftType === "주간") ? (info["day_workers"] || {}) : (info["night_workers"] || {});
-                            cellText = (workerGroup[jsonPosKey] || "");
-                            if (["0", 0, "nan"].includes(cellText)) cellText = "";
+                            let rawName = (workerGroup[jsonPosKey] || "").toString().trim();
+
+                            if (["0", 0, "nan"].includes(rawName)) rawName = "";
+
+                            // 1. 용역원실 이름과 일치하면 (용) 글자만 크기를 줄여서 세팅
+                            if (rawName && info["staffroom"] && rawName === info["staffroom"].toString().trim()) {
+                                cellText = `${rawName}<span style="font-size: 11px; font-weight: bold; margin-left: 2px; color: #154360;">(용)</span>`;
+                            } else {
+                                cellText = rawName;
+                            }
                         }
 
-                        if (selectedName && cellText === selectedName) {
+                        // 2. 상단 칩 선택 필터링 검사 (HTML 태그를 떼어내고 순수 이름으로만 비교)
+                        const pureText = cellText.split("<span")[0]; 
+                        if (selectedName && pureText === selectedName) {
                             td.style.backgroundColor = "rgba(52, 152, 219, 0.2)";
                             td.style.color = "var(--dark-blue)";
                             td.style.fontWeight = "bold";
                         }
-                        td.innerText = cellText;
+
+                        td.innerHTML = cellText; 
                         tr.appendChild(td);
+
                     });
                     table.appendChild(tr);
                 });
