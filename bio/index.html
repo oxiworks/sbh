@@ -299,7 +299,7 @@
 
                             // 1. 용역원실 이름과 일치하면 (용) 글자만 크기를 줄여서 세팅
                             if (rawName && info["staffroom"] && rawName === info["staffroom"].toString().trim()) {
-                                cellText = `${rawName}<span style="font-size: 11px; font-weight: normal; margin-left: 2px; color: #7f8c8d;">(용)</span>`;
+                                cellText = `${rawName}<span style="font-size: 11px; font-weight: bold; margin-left: 2px; color: #154360;">(용)</span>`;
                             } else {
                                 cellText = rawName;
                             }
