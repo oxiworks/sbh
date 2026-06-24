@@ -1,20 +1,3 @@
-타임테이블 작성시 css 퍼미션 에러
-스크립트 파일 생성시 퍼미션 관리
-원격으로 사이트 장애 시, ntfy 통보 서비스
-power, bio 한 스크립트 처리 개선
-1. timetable 웹페이지 제공
-2. 일일 시간표 노티파이
-3. 일일 미션 노티파이
-4. 일일 업무 노티파이
-
-
-2. 웹페이지에 사이트 링크나 백업 링크 표시
-
-3.
-
-
-
-
 [스크립트 내역서]
 1. schedule_json_gen.py
    - cron 등 스케줄 정의 필요
@@ -23,8 +6,8 @@ power, bio 한 스크립트 처리 개선
    - logs 폴더에 파일 생성
 
 2. move_json_gen.py
-   - cron 등 스케줄 정의 필요
-   - google doc 에 있는 sbh 이사, 이동 신청을 조회 data 폴더에 json 으로 변환(1년치)
+   - schedule_json_gen.py 가, "subprocess trigger" 로 호출함 별도 정의 불필요
+   - google doc 에 있는 sbh 이사, 이동 신청을 조회 후 메시지 전송
    - 에러 oxinofity, logs 처리는 위와 동일
 
 3. mission_json_gen.py
@@ -32,10 +15,9 @@ power, bio 한 스크립트 처리 개선
    - data 폴더에 있는, 정의된 missionXX.xlx 파일을 data 폴더에 json 으로 변환
    - 에러 oxinofity, logs 처리는 위와 동일
 
-# 위의 1,2,3 스크립트 cron 등록
+# 위의 1,2스크립트 cron 등록
 11 * * * * /usr/bin/python3 /home/oxisnail/work/git/sbh/script/schedule_json_gen.py
 13 * * * * /usr/bin/python3 /home/oxisnail/work/git/sbh/script/mission_json_gen.py
-15 * * * * /usr/bin/python3 /home/oxisnail/work/git/sbh/script/move_json_gen.py
 
 
 

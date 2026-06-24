@@ -61,3 +61,183 @@ FileNotFoundError: 필수 엑셀 파일이 존재하지 않습니다: /home/oxis
 2026-06-23 15:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
 2026-06-23 15:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
 2026-06-23 15:11:06 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-23 16:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-23 16:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-23 16:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-23 16:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-23 16:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-23 16:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-23 17:11:04 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-23 17:11:04 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-23 17:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-23 17:11:05 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-23 17:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-23 17:11:06 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-23 18:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-23 18:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-23 18:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-23 18:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-23 18:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-23 18:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-23 19:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-23 19:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-23 19:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-23 19:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-23 19:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-23 19:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-23 20:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-23 20:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-23 20:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-23 20:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-23 20:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-23 20:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-23 21:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-23 21:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-23 21:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-23 21:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-23 21:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-23 21:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-23 22:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-23 22:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-23 22:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-23 22:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-23 22:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-23 22:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-23 23:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-23 23:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-23 23:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-23 23:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-23 23:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-23 23:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 00:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 00:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 00:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 00:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 00:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 00:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 01:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 01:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 01:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 01:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 01:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 01:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 02:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 02:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 02:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 02:11:05 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 02:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 02:11:06 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 03:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 03:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 03:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 03:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 03:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 03:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 04:11:04 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 04:11:04 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 04:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 04:11:06 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 04:11:07 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 04:11:07 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 05:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 05:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 05:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 05:11:05 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 05:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 05:11:06 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 06:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 06:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 06:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 06:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 06:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 06:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 07:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 07:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 07:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 07:11:05 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 07:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 07:11:06 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 08:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 08:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 08:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 08:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 08:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 08:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 09:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 09:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 09:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 09:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 09:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 09:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 10:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 10:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 10:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 10:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 10:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 10:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 11:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 11:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 11:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 11:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 11:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 11:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 12:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 12:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 12:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 12:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 12:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 12:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 13:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 13:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 13:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 13:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 13:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 13:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 14:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 14:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 14:11:03 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 14:11:03 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 14:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 14:11:04 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 15:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 15:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 15:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 15:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 15:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 15:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 16:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 16:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 16:11:03 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 16:11:03 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 16:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 16:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 17:11:02 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 17:11:02 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 17:11:03 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 17:11:03 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 17:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 17:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 18:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 18:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 18:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 18:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 18:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 18:11:05 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 19:11:04 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 19:11:04 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 19:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 19:11:06 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 19:11:07 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 19:11:07 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 20:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 20:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 20:11:05 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 20:11:05 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 20:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 20:11:06 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-06-24 21:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-06-24 21:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-06-24 21:11:04 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-06-24 21:11:04 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-06-24 21:11:06 [INFO] [시간표] 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-06-24 21:11:06 [INFO] ================ 시간표 캐시 업데이트 완료 ================

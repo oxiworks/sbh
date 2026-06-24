@@ -47,14 +47,12 @@ import json
 import requests
 import socket
 import base64
-import subprocess
-
 
 # ==============================================================================
 # CONFIGURATION PART (경로 자동화 및 환경 설정)
 # ==============================================================================
 # 1. 🌟 이 변수 하나만 변경하면 아래 모든 경로와 NTFY 채널이 자동으로 매핑됩니다.
-TEAM_NAME = "bio"  # "bio" 또는 "power" 등 팀명 지정
+TEAM_NAME = "power"  # "bio" 또는 "power" 등 팀명 지정
 
 # 2. 파일 시스템 기반 디렉터리 동적 정의
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -228,48 +226,9 @@ def process_schedule(target_day, target_hour, is_test=False):
 
         log_message(f"[BUILD MESSAGE]\n{message_body}\n")
 
-        # 부가 스크립트 체인 실행 먼저 메시지 전송(앱상에, 스케줄이 마지막에 떠야 함)
-        trigger_sub_scripts(is_test)
-        
-        
         # 전송 목적지 설정 및 발송
         target_url = NTFY_TEST_URL if is_test else NTFY_WORK_URL
         send_ntfy_message(target_url, message_body)
-
-
-def trigger_sub_scripts(is_test=False):
-    """알림 발송 후 추가로 실행할 외부 부가 스크립트 목록 제어 센터"""
-    try:
-        log_message("▶ [Chain] 후속 부가 스크립트 실행 트리거")
-        
-        script_pipeline = [
-            "move_alarm.py",  # aaa.py에서 실제 이름으로 매핑
-        ]
-        
-        for script_name in script_pipeline:
-            script_path = os.path.join(BASE_DIR, script_name)
-            
-            if not os.path.exists(script_path):
-                log_message(f"  [⚠️ WARNING] 후속 스크립트 누락으로 건너뜀: {script_name}")
-                continue
-                
-            try:
-                log_message(f"  [EXECUTE] {script_name} 스크립트 구동 시작...")
-                
-                # 🌟 [일관성 유지] 기본 실행 명령어를 만들고, 테스트 모드면 뒤에 인자를 추가합니다.
-                cmd = [sys.executable, script_path]
-                if is_test:
-                    cmd.append("test")
-                
-                subprocess.run(cmd, check=True)
-                
-                log_message(f"  [SUCCESS] {script_name} 백그라운드 호출 완료")
-            except Exception as e:
-                log_message(f"  [❌ ERROR] {script_name} 실행 중 실패: {str(e)}")
-
-    except Exception as fatal_e:
-        log_message(f"  [❌ FATAL-CHAIN] 트리거 함수 자체 오류 발생 (패스함): {str(fatal_e)}")
-        
 
 def run_daemon():
     """1분 단위 상시 대몬 스캐너 백그라운드 코어"""
