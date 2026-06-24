@@ -40557,3 +40557,97 @@ From_service
 [[2026-06-24 21:29:04]_bio_alarm.py] [TASK:11] 검사 시작 - 열린동-주민소통라운지 방송장비 켜기
 [[2026-06-24 21:29:04]_bio_alarm.py] [TASK:11] SKIP 요일 불일치 (수 not in ['목', '금'])
 [[2026-06-24 21:29:04]_bio_alarm.py] [TASK:12] 검사 시작 - 공용부 냉난방기 전원 끄기(미화여사님 청소 중 켜둠)
+[[2026-06-24 21:30:36]_bio_alarm.py] [CHECK] 분 검사 시작: 21:30
+[[2026-06-24 21:30:36]_bio_alarm.py] [DATE] today=2026/06/24, yesterday=2026/06/23, weekday=수
+[[2026-06-24 21:30:36]_bio_alarm.py] [JSON] 로드 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json
+[[2026-06-24 21:30:36]_bio_alarm.py] [JSON] 로드 성공: /home/oxisnail/work/git/sbh/script/data/bio_task.json
+[[2026-06-24 21:30:36]_bio_alarm.py] [POSITION] 야간 위치 발견: 지원동
+[[2026-06-24 21:30:36]_bio_alarm.py] [POSITION] 주간 위치 발견: 글로벌
+[[2026-06-24 21:30:36]_bio_alarm.py] [STATUS] today_type=야간, yesterday_type=주간, pos_today=지원동, pos_yesterday=글로벌, weekend=False, holiday=False
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK] 총 task 수: 14
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:999] 검사 시작 - 테스트 알람
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:999] SKIP 종료일 이후 (20260624 > 20260519)
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:1] 검사 시작 - 환풍기 및 냉난방기 OFF (저녁)
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:2] 검사 시작 - 전등 OFF
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:3] 검사 시작 - 검침 시작
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:4] 검사 시작 - 주간 인수인계
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:5] 검사 시작 - 야간 인수인계
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:6] 검사 시작 - 비번날 아침 환풍기 가동
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:7] 검사 시작 - 비번날 아침 환풍기 OFF
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:8] 검사 시작 - 절전 냉난방기 OFF (18시)
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:9] 검사 시작 - 절전 냉난방기 OFF (21시)
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:10] 검사 시작 - 절전 냉난방기 OFF (24시)
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:11] 검사 시작 - 열린동-주민소통라운지 방송장비 켜기
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:11] SKIP 요일 불일치 (수 not in ['목', '금'])
+[[2026-06-24 21:30:36]_bio_alarm.py] [TASK:12] 검사 시작 - 공용부 냉난방기 전원 끄기(미화여사님 청소 중 켜둠)
+[[2026-06-24 21:31:22]_bio_alarm.py] [CHECK] 분 검사 시작: 21:31
+[[2026-06-24 21:31:22]_bio_alarm.py] [DATE] today=2026/06/24, yesterday=2026/06/23, weekday=수
+[[2026-06-24 21:31:22]_bio_alarm.py] [JSON] 로드 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json
+[[2026-06-24 21:31:22]_bio_alarm.py] [JSON] 로드 성공: /home/oxisnail/work/git/sbh/script/data/bio_task.json
+[[2026-06-24 21:31:22]_bio_alarm.py] [POSITION] 야간 위치 발견: 지원동
+[[2026-06-24 21:31:22]_bio_alarm.py] [POSITION] 주간 위치 발견: 글로벌
+[[2026-06-24 21:31:22]_bio_alarm.py] [STATUS] today_type=야간, yesterday_type=주간, pos_today=지원동, pos_yesterday=글로벌, weekend=False, holiday=False
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK] 총 task 수: 14
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:999] 검사 시작 - 테스트 알람
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:999] SKIP 종료일 이후 (20260624 > 20260519)
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:1] 검사 시작 - 환풍기 및 냉난방기 OFF (저녁)
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:2] 검사 시작 - 전등 OFF
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:3] 검사 시작 - 검침 시작
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:4] 검사 시작 - 주간 인수인계
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:5] 검사 시작 - 야간 인수인계
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:6] 검사 시작 - 비번날 아침 환풍기 가동
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:7] 검사 시작 - 비번날 아침 환풍기 OFF
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:8] 검사 시작 - 절전 냉난방기 OFF (18시)
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:9] 검사 시작 - 절전 냉난방기 OFF (21시)
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:10] 검사 시작 - 절전 냉난방기 OFF (24시)
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:11] 검사 시작 - 열린동-주민소통라운지 방송장비 켜기
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:11] SKIP 요일 불일치 (수 not in ['목', '금'])
+[[2026-06-24 21:31:22]_bio_alarm.py] [TASK:12] 검사 시작 - 공용부 냉난방기 전원 끄기(미화여사님 청소 중 켜둠)
+[[2026-06-24 21:32:08]_bio_alarm.py] [CHECK] 분 검사 시작: 21:32
+[[2026-06-24 21:32:08]_bio_alarm.py] [DATE] today=2026/06/24, yesterday=2026/06/23, weekday=수
+[[2026-06-24 21:32:08]_bio_alarm.py] [JSON] 로드 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json
+[[2026-06-24 21:32:08]_bio_alarm.py] [JSON] 로드 성공: /home/oxisnail/work/git/sbh/script/data/bio_task.json
+[[2026-06-24 21:32:08]_bio_alarm.py] [POSITION] 야간 위치 발견: 지원동
+[[2026-06-24 21:32:08]_bio_alarm.py] [POSITION] 주간 위치 발견: 글로벌
+[[2026-06-24 21:32:08]_bio_alarm.py] [STATUS] today_type=야간, yesterday_type=주간, pos_today=지원동, pos_yesterday=글로벌, weekend=False, holiday=False
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK] 총 task 수: 14
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:999] 검사 시작 - 테스트 알람
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:999] SKIP 종료일 이후 (20260624 > 20260519)
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:1] 검사 시작 - 환풍기 및 냉난방기 OFF (저녁)
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:2] 검사 시작 - 전등 OFF
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:3] 검사 시작 - 검침 시작
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:4] 검사 시작 - 주간 인수인계
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:5] 검사 시작 - 야간 인수인계
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:6] 검사 시작 - 비번날 아침 환풍기 가동
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:7] 검사 시작 - 비번날 아침 환풍기 OFF
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:8] 검사 시작 - 절전 냉난방기 OFF (18시)
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:9] 검사 시작 - 절전 냉난방기 OFF (21시)
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:10] 검사 시작 - 절전 냉난방기 OFF (24시)
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:11] 검사 시작 - 열린동-주민소통라운지 방송장비 켜기
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:11] SKIP 요일 불일치 (수 not in ['목', '금'])
+[[2026-06-24 21:32:08]_bio_alarm.py] [TASK:12] 검사 시작 - 공용부 냉난방기 전원 끄기(미화여사님 청소 중 켜둠)
+[[2026-06-24 21:33:10]_bio_alarm.py] ### 스크립트 실시간 서비스 데몬 기동 (JSON 캐시 스캔 모드) ###
+[[2026-06-24 21:33:14]_bio_alarm.py] ### 스크립트 실시간 서비스 데몬 기동 (JSON 캐시 스캔 모드) ###
+[[2026-06-24 21:33:14]_bio_alarm.py] [CHECK] 분 검사 시작: 21:33
+[[2026-06-24 21:33:14]_bio_alarm.py] [DATE] today=2026/06/24, yesterday=2026/06/23, weekday=수
+[[2026-06-24 21:33:15]_bio_alarm.py] [JSON] 로드 성공: /home/oxisnail/work/git/sbh/script/data/schedule_2026_bio.json
+[[2026-06-24 21:33:15]_bio_alarm.py] [JSON] 로드 성공: /home/oxisnail/work/git/sbh/script/data/bio_task.json
+[[2026-06-24 21:33:15]_bio_alarm.py] [POSITION] 야간 위치 발견: 지원동
+[[2026-06-24 21:33:15]_bio_alarm.py] [POSITION] 주간 위치 발견: 글로벌
+[[2026-06-24 21:33:15]_bio_alarm.py] [STATUS] today_type=야간, yesterday_type=주간, pos_today=지원동, pos_yesterday=글로벌, weekend=False, holiday=False
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK] 총 task 수: 14
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:999] 검사 시작 - 테스트 알람
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:999] SKIP 종료일 이후 (20260624 > 20260519)
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:1] 검사 시작 - 환풍기 및 냉난방기 OFF (저녁)
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:2] 검사 시작 - 전등 OFF
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:3] 검사 시작 - 검침 시작
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:4] 검사 시작 - 주간 인수인계
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:5] 검사 시작 - 야간 인수인계
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:6] 검사 시작 - 비번날 아침 환풍기 가동
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:7] 검사 시작 - 비번날 아침 환풍기 OFF
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:8] 검사 시작 - 절전 냉난방기 OFF (18시)
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:9] 검사 시작 - 절전 냉난방기 OFF (21시)
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:10] 검사 시작 - 절전 냉난방기 OFF (24시)
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:11] 검사 시작 - 열린동-주민소통라운지 방송장비 켜기
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:11] SKIP 요일 불일치 (수 not in ['목', '금'])
+[[2026-06-24 21:33:15]_bio_alarm.py] [TASK:12] 검사 시작 - 공용부 냉난방기 전원 끄기(미화여사님 청소 중 켜둠)
