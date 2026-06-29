@@ -1,0 +1,11 @@
+    [Unit]
+    Description=SBH Bio Work list Alarm Daemon
+    After=network.target
+
+    [Service]
+    ExecStart=/usr/bin/python3 /home/oxisnail/sbh/script/work_bio_alarm.py
+    Restart=always
+    User=oxisnail
+
+    [Install]
+    WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+    [Unit]
+    Description=SBH Power Schedule Alarm Daemon
+    After=network.target
+
+    [Service]
+    ExecStart=/usr/bin/python3 /home/oxisnail/sbh/script/schedule_power_alarm.py
+    Restart=always
+    User=oxisnail
+
+    [Install]
+    WantedBy=multi-user.target

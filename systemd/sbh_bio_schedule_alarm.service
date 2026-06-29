@@ -1,0 +1,11 @@
+    [Unit]
+    Description=SBH Bio Schedule Alarm Daemon
+    After=network.target
+
+    [Service]
+    ExecStart=/usr/bin/python3 /home/oxisnail/sbh/script/schedule_bio_alarm.py
+    Restart=always
+    User=oxisnail
+
+    [Install]
+    WantedBy=multi-user.target
