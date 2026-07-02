@@ -1333,3 +1333,9 @@ FileNotFoundError: 필수 엑셀 파일이 존재하지 않습니다: /home/oxis
 2026-07-02 12:11:07 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
 2026-07-02 12:11:08 [INFO] [시간표] 성공: /home/oxisnail/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
 2026-07-02 12:11:08 [INFO] ================ 시간표 캐시 업데이트 완료 ================
+2026-07-02 13:11:03 [INFO] ================ 시간표 캐시 업데이트 시작 ================
+2026-07-02 13:11:03 [INFO] [시간표] schedule_2026_bio.xlsm 캐시 업데이트 시작
+2026-07-02 13:11:05 [INFO] [시간표] 성공: /home/oxisnail/sbh/script/data/schedule_2026_bio.json (총 366일치 완료)
+2026-07-02 13:11:05 [INFO] [시간표] schedule_2026_power.xlsm 캐시 업데이트 시작
+2026-07-02 13:11:06 [INFO] [시간표] 성공: /home/oxisnail/sbh/script/data/schedule_2026_power.json (총 366일치 완료)
+2026-07-02 13:11:06 [INFO] ================ 시간표 캐시 업데이트 완료 ================
