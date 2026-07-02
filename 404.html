@@ -82,6 +82,17 @@
             font-weight: 600 !important; /* 🌟 800보다 얇고 기본(400)보다 도톰한 세미 볼드 */
         }
 
+        /* 주말, 공휴일 당직일때 특별 스타일 */
+	.special-holiday-duty {
+            color: #065f46 !important;       /* 🌟 신규: 배경과 잘 구분되는 진한 에메랄드 그린 */
+            font-weight: 600 !important;     /* 글씨를 살짝 도톰하게 처리 */
+        }
+
+	.special-holiday-duty {
+            color: #065f46 !important;       /* 🌟 신규: 배경과 잘 구분되는 진한 에메랄드 그린 */
+            font-weight: 600 !important;     /* 글씨를 살짝 도톰하게 처리 */
+        }
+
         .other-month { opacity: 0.2; }
 
         @keyframes pulseGlow {
@@ -325,6 +336,9 @@
                         if (shiftType === "휴무" && (isHoliday || dateObj.getDay() === 0 || dateObj.getDay() === 6)) {
                           td.classList.add('special-holiday-off');
                         }
+
+			if (shiftType === "당직" && (isHoliday || dateObj.getDay() === 0 || dateObj.getDay() === 6)) {
+                          td.classList.add('special-holiday-duty');
 
 
 
