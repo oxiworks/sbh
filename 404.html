@@ -75,6 +75,11 @@
         .is-holiday { 
 	    color: var(--holiday-red) !important; 
 	}
+      
+	/* 주말, 공휴일 휴무일때 특별 스타일 */
+        .special-holiday-off {
+            font-weight: 600 !important; /* 🌟 800보다 얇고 기본(400)보다 도톰한 세미 볼드 */
+        }
 
         .other-month { opacity: 0.2; }
 
@@ -300,25 +305,28 @@
                         if (dateObj.getMonth() + 1 !== viewMonth) td.classList.add('other-month');
 
 
-
-
-			// 1. 공휴일이면 진한 레드 전용 클래스 부여
 			if (isHoliday) {
-			    td.classList.add('is-holiday');
-			} 
-			// 2. 공휴일이 아닌 평범한 일요일은 기존 핑크색 클래스 부여
-			else if (dateObj.getDay() === 0) {
-  			  td.classList.add('is-sun');
-			} 
-			// 3. 토요일은 파란색 클래스 부여
-			else if (dateObj.getDay() === 6) {
-			    td.classList.add('is-sat');
+  			  td.classList.add('is-holiday');
+			} else if (dateObj.getDay() === 0) {
+			    td.classList.add('is-sun');
+			} else if (dateObj.getDay() === 6) {
+  			  td.classList.add('is-sat');
+			}
+
+			const shiftType = (info["work_type"] || "").trim();
+			if (shiftType) {
+   			  td.classList.add('status-' + shiftType);
 			}
 
 
 
-                        const shiftType = (info["work_type"] || "").trim();
-                        if (shiftType) td.classList.add('status-' + shiftType);
+                        // 📌 여기에 특별 조건 코드가 추가되었습니다!
+                        if (shiftType === "휴무" && (isHoliday || dateObj.getDay() === 0 || dateObj.getDay() === 6)) {
+                          td.classList.add('special-holiday-off');
+                        }
+
+
+
 
                         let cellText = "";
                         if (label === "날짜") {
