@@ -2,107 +2,377 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>시간표</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>2026 근무 스케줄</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <style>
-        /* 기본 스타일 초기화 및 배경 설정 */
+        :root {
+            --main-blue: #3498db;
+            --dark-blue: #2980b9;
+            --header-bg: linear-gradient(135deg, #d9ecff 0%, #b9ddff 50%, #a3d2ff 100%);
+            --base-font-size: 18px;
+            --today-border: #ff0096; /* 화려한 네온 핑크 */
+            --today-glow: rgba(255, 0, 150, 0.2);
+            --holiday-pink: #e84393;
+        }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f6f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
+            font-family: 'Pretendard Variable', sans-serif;
+            background-color: #e6f3ff;
+            margin: 0; padding: 0;
+            display: flex; flex-direction: column; align-items: center;
+            overflow-x: hidden;
         }
 
-        /* 상단 제목 스타일 */
-        header {
-            margin-top: 50px;
-            margin-bottom: 40px;
-        }
-        header h1 {
-            font-size: 2.5rem;
-            color: #333;
-            letter-spacing: 1px;
+        #master-wrapper {
+            width: 600px; min-width: 600px;
+            margin: 20px 0; transform-origin: top center;
         }
 
-        /* 메인 컨텐츠 컨테이너 */
-        .container {
-            width: 100%;
-            max-width: 500px;
-            padding: 0 20px;
-            box-sizing: border-box;
+        .main-board {
+            background: white; border: 2px solid var(--main-blue);
+            border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        /* 중간 BIO, POWER 가로 배치 스타일 */
-        .row-buttons {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 20px;
+        .top-bar {
+            display: flex; align-items: center; justify-content: space-between;
+            background: var(--header-bg); padding: 10px 15px; border-bottom: 2px solid var(--main-blue);
         }
-        .btn-half {
-            flex: 1;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #ffffff;
-            color: #2c3e50;
+
+        .nav-btn { cursor: pointer; border: none; background: #2f71c1; color: white; font-size: 18px; font-weight: bold; padding: 5px 12px; border-radius: 6px; transition: 0.2s; }
+        .nav-btn:hover { background: #1f5aa0; }
+        .month-display { font-size: 1.6rem; font-weight: 800; color: #2c3e50; min-width: 120px; text-align: center; }
+
+        .name-grid { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; max-width: 320px; }
+        .name-chip {
+            padding: 2px 10px; border-radius: 6px; background: rgba(255,255,255,0.7);
+            font-size: 15px; cursor: pointer; border: 1.5px solid #ced4da;
+            font-weight: 800; color: #333; transition: all 0.1s; line-height: 1.4;
+        }
+        .name-chip.active { background: var(--main-blue); color: white; border-color: var(--dark-blue); box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+
+        .fade-layer { opacity: 0; transition: opacity 0.4s ease-in-out; }
+        .fade-layer.show { opacity: 1; }
+
+        .week-block { width: 100%; border-collapse: collapse; table-layout: fixed; border-bottom: 5px solid var(--main-blue) !important; }
+        .week-block:last-child { border-bottom: none !important; }
+        .week-block td { border: 1px solid #d6eaf8; height: 32px; font-size: var(--base-font-size); line-height: 32px; text-align: center; white-space: nowrap; }
+
+        .index-label { background: #f8fbfe !important; color: #34495e !important; width: 70px; font-size: 13px; font-weight: 700; border-right: 2.5px solid var(--main-blue) !important; }
+        .row-지원동 td { border-top: 3.5px solid var(--main-blue) !important; }
+
+        /* 근무 상태별 색상 */
+        .status-주간 { background-color: #fff9db !important; }
+        .status-야간 { background-color: #d1dbe4 !important; }
+        .status-당직 { background-color: #ebfbee !important; }
+        .status-비번 { background-color: #f1f3f5 !important; }
+        .status-휴무 { background-color: #fff5f5 !important; }
+
+        .is-sun { color: var(--holiday-pink) !important; }
+        .is-sat { color: #2980b9 !important; }
+        .other-month { opacity: 0.2; }
+
+        @keyframes pulseGlow {
+            0% { box-shadow: inset 0 0 5px var(--today-glow); border-color: #ff0096; }
+            50% { box-shadow: inset 0 0 15px rgba(0, 212, 255, 0.4); border-color: #00d4ff; }
+            100% { box-shadow: inset 0 0 5px var(--today-glow); border-color: #ff0096; }
+        }
+
+        .is-today { position: relative; font-weight: 900 !important; }
+        .is-today::after {
+            content: ""; position: absolute; top: -1px; bottom: -1px; left: -1px; right: -1px;
+            border-left: 3px solid var(--today-border); border-right: 3px solid var(--today-border);
+            pointer-events: none; z-index: 10; animation: pulseGlow 2s infinite ease-in-out;
+        }
+        .row-날짜 td.is-today::after { border-top: 3px solid var(--today-border); border-top-left-radius: 4px; border-top-right-radius: 4px; }
+        .row-외곽-2 td.is-today::after { border-bottom: 3px solid var(--today-border); border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
+        .row-날짜 td.is-today { color: var(--today-border) !important; }
+
+        /* 공지사항 박스 스타일 */
+        .notice-box {
+            background-color: #fff9db;
+            border: 1.5px solid #f1c40f;
+            border-radius: 8px;
+            padding: 12px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 700;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .notice-box a {
+            color: #d35400;
             text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: bold;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transition: all 0.2s ease;
-            border: 1px solid #e2e8f0;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
         }
-        .btn-half:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 12px rgba(0,0,0,0.1);
-            background-color: #4a90e2;
-            color: #ffffff;
-            border-color: #4a90e2;
+        .notice-box a:hover {
+            text-decoration: underline;
+            color: #e67e22;
         }
 
-        /* 하단 가로로 긴 버튼 스타일 */
-        .btn-full {
-            width: 100%;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #34495e;
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: bold;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transition: all 0.2s ease;
-        }
-        .btn-full:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 12px rgba(0,0,0,0.1);
-            background-color: #2c3e50;
-        }
+        .copyright-bar { text-align: right; margin-top: 8px; font-size: 11px; color: #999; }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>시간표</h1>
-    </header>
-
-    <div class="container">
-        <div class="row-buttons">
-            <a href="https://sbh.oxisnail.top/bio/" class="btn-half" target="_self">BIO팀</a>
-            <a href="https://sbh.oxisnail.top/power/" class="btn-half" target="_self">POWER팀</a>
-        </div>
-
-        <a href="https://sbh.oxisnail.top/help.html" class="btn-full" target="_blank">ntfy.sh 시간표 알림 설정법</a>
+<div id="master-wrapper">
+    <div id="serverLinkArea" class="server-link-bar">
+        서버1 : <a id="serverLink1" href="#" target="_blank">loading...</a> &nbsp;|&nbsp;
+        서버2 : <a id="serverLink2" href="#" target="_blank">loading...</a>
     </div>
 
+    <div class="main-board">
+        <div class="top-bar">
+            <div class="nav-group">
+                <button class="nav-btn" onclick="changeMonth(-1)">◀</button>
+                <span id="currentMonthStr" class="month-display"></span>
+                <button class="nav-btn" onclick="changeMonth(1)">▶</button>
+            </div>
+            <div id="nameGrid" class="name-grid"></div>
+        </div>
+        <div id="calendarArea" class="fade-layer"></div>
+    </div>
+
+    <div class="notice-box">
+        📢 <a href="https://sbh.oxisnail.top/help.html" target="_blank">ntfy.sh 실시간 알람설정 방법 안내 페이지</a>
+    </div>
+
+    <div class="copyright-bar">Serviced by '<span id="server-hostname">loading...</span>' host © 2026. oxisnail All rights reserved.</div>
+</div>
+
+<script>
+    // ==============================================================================
+    // CONFIGURATION PART (도메인 형태별 팀명 추출 및 /script 절대경로 통합)
+    // ==============================================================================
+    const host = window.location.hostname; // 예: bio.oxisnail.top 또는 sbh.oxisnail.top
+    const path = window.location.pathname; // 예: / 또는 /bio/
+
+    let teamName = "bio"; // 기본값 방어 코드
+
+    // [경우 1] sbh.oxisnail.top 이면 주소 '뒤(pathname)'의 값을 보고 팀명 판단
+    if (host === "sbh.oxisnail.top") {
+        const pathSegments = path.split('/').filter(Boolean); // 빈 문자열 제거
+        // sbh.oxisnail.top/bio/ 형태로 들어오면 첫 번째 세그먼트가 팀명
+        if (pathSegments[0] && pathSegments[0] !== "index.html") {
+            teamName = pathSegments[0];
+        }
+    }
+    // [경우 2] 그 외 단독 도메인이면 주소 '앞(subdomain)'의 값을 보고 팀명 판단
+    else {
+        teamName = host.split('.')[0]; // bio.oxisnail.top -> 'bio' 추출
+    }
+
+    // 🌟 서버 A, B 모두 root 밑에 script가 있으므로 무조건 '/'로 시작하는 절대경로 대통합!
+    const DATA_URL = `/script/data/schedule_2026_${teamName}.json`;
+    // ==============================================================================
+
+    // 🌟 추출된 teamName 기반으로 상단 바로가기 링크 자동 맵핑
+    function initServerLinks() {
+        try {
+            const url1 = `https://${teamName}.oxisnail.top`;
+            const url2 = `https://sbh.oxisnail.top/${teamName}`;
+
+            document.getElementById('serverLink1').href = url1;
+            document.getElementById('serverLink1').innerText = url1;
+            document.getElementById('serverLink2').href = url2;
+            document.getElementById('serverLink2').innerText = url2;
+        } catch (e) {
+            console.error("팀명 링크 생성 중 오류:", e);
+        }
+    }
+
+
+    const today = new Date();
+    // 로컬 타임존 기준 포맷팅을 위해 슬래시(/) 기반 매핑
+    const todayStr = `${today.getFullYear()}/${String(today.getMonth() + 1).padStart(2, '0')}/${String(today.getDate()).padStart(2, '0')}`;
+    let viewYear = today.getFullYear();
+    let viewMonth = today.getMonth() + 1;
+    let selectedName = "";
+
+    // 글로벌 scheduleData 저장 변수
+    let scheduleData = {};
+
+    const rowLabels = ["날짜", "공휴일", "근무", "지원동", "글로벌", "외곽-1", "외곽-2"];
+    const weekNames = ["일", "월", "화", "수", "목", "금", "토"];
+
+    // 새 JSON 맵과 화면에 출력되는 rowLabels 매핑 규칙 정의
+    const posMapping = {
+        "지원동": "지원동",
+        "글로벌": "글로벌",
+        "외곽-1": "외곽1",
+        "외곽-2": "외곽2"
+    };
+
+    function adjustScale() {
+        const wrapper = document.getElementById('master-wrapper');
+        const screenWidth = window.innerWidth;
+        const baseWidth = 620;
+        if (screenWidth < baseWidth) {
+            const scale = screenWidth / baseWidth;
+            wrapper.style.transform = `scale(${scale})`;
+            wrapper.style.marginBottom = `-${wrapper.offsetHeight * (1 - scale)}px`;
+        } else {
+            wrapper.style.transform = 'scale(1)';
+            wrapper.style.marginBottom = '0';
+        }
+    }
+
+    function getNameList() {
+        const names = new Set();
+        Object.values(scheduleData).forEach(day => {
+            // 주간/야간 데이터 통합 처리하여 이름 명단 추출
+            ["day_workers", "night_workers"].forEach(shiftKey => {
+                const workers = day[shiftKey] || {};
+                Object.values(workers).forEach(val => {
+                    const cleanVal = (val || "").toString().trim();
+                    if (cleanVal && !["-","0","nan"].includes(cleanVal)) names.add(cleanVal);
+                });
+            });
+        });
+        return Array.from(names).sort();
+    }
+
+    function renderNameSelector() {
+        const container = document.getElementById('nameGrid');
+        container.innerHTML = "";
+        getNameList().forEach(name => {
+            const div = document.createElement('div');
+            div.className = `name-chip ${selectedName === name ? 'active' : ''}`;
+            div.innerText = name;
+            div.onclick = () => {
+                selectedName = (selectedName === name) ? "" : name;
+                renderNameSelector();
+                initCalendar(false);
+            };
+            container.appendChild(div);
+        });
+    }
+
+    function initCalendar(useFade = true) {
+        const area = document.getElementById('calendarArea');
+        if (useFade) area.classList.remove('show');
+
+        setTimeout(() => {
+            document.getElementById('currentMonthStr').innerText = `${viewYear}년 ${viewMonth}월`;
+            area.innerHTML = "";
+
+            const first = new Date(viewYear, viewMonth - 1, 1);
+            const last = new Date(viewYear, viewMonth, 0);
+            const daysArray = [];
+            const startDay = first.getDay();
+            const prevLast = new Date(viewYear, viewMonth - 1, 0);
+
+            for (let p = startDay - 1; p >= 0; p--) daysArray.push(new Date(viewYear, viewMonth - 2, prevLast.getDate() - p));
+            for (let d = 1; d <= last.getDate(); d++) daysArray.push(new Date(viewYear, viewMonth - 1, d));
+            let nextMonthDayCounter = 1;
+            while (daysArray.length % 7 !== 0) {
+                daysArray.push(new Date(viewYear, viewMonth, nextMonthDayCounter++));
+            }
+
+            for (let i = 0; i < daysArray.length; i += 7) {
+                const weekData = daysArray.slice(i, i + 7);
+                const table = document.createElement('table');
+                table.className = "week-block";
+                rowLabels.forEach((label) => {
+                    const tr = document.createElement('tr');
+                    tr.className = `row-${label}`;
+                    const th = document.createElement('td');
+                    th.className = "index-label"; th.innerText = label;
+                    tr.appendChild(th);
+
+                    weekData.forEach(dateObj => {
+                        const td = document.createElement('td');
+                        // 슬래시(/) 구분자 기반의 키 매핑 생성
+                        const key = `${dateObj.getFullYear()}/${String(dateObj.getMonth() + 1).padStart(2, '0')}/${String(dateObj.getDate()).padStart(2, '0')}`;
+                        const info = scheduleData[key] || {};
+                        const holidayName = (info["holiday"] || "").toString().trim();
+                        const isHoliday = holidayName && !["0", "nan", "-"].includes(holidayName);
+
+                        if (key === todayStr) td.classList.add('is-today');
+                        if (dateObj.getMonth() + 1 !== viewMonth) td.classList.add('other-month');
+                        if (dateObj.getDay() === 0 || isHoliday) td.classList.add('is-sun');
+                        else if (dateObj.getDay() === 6) td.classList.add('is-sat');
+
+                        const shiftType = (info["work_type"] || "").trim();
+                        if (shiftType) td.classList.add('status-' + shiftType);
+
+                        let cellText = "";
+                        if (label === "날짜") {
+                            cellText = `${dateObj.getMonth()+1}/${dateObj.getDate()}(${weekNames[dateObj.getDay()]})`;
+                        } else if (label === "공휴일") {
+                            cellText = holidayName;
+                        } else if (label === "근무") {
+                            cellText = shiftType;
+
+                        } else {
+                            const jsonPosKey = posMapping[label];
+                            const workerGroup = (shiftType === "주간") ? (info["day_workers"] || {}) : (info["night_workers"] || {});
+                            let rawName = (workerGroup[jsonPosKey] || "").toString().trim();
+
+                            if (["0", 0, "nan"].includes(rawName)) rawName = "";
+
+                            // 1. 용역원실 이름과 일치하면 (용) 글자만 크기를 줄여서 세팅
+                            if (rawName && info["staffroom"] && rawName === info["staffroom"].toString().trim()) {
+                                cellText = `${rawName}<span style="font-size: 11px; font-weight: bold; margin-left: 2px; color: #154360;">(용)</span>`;
+                            } else {
+                                cellText = rawName;
+                            }
+                        }
+
+                        // 2. 상단 칩 선택 필터링 검사 (HTML 태그를 떼어내고 순수 이름으로만 비교)
+                        const pureText = cellText.split("<span")[0];
+                        if (selectedName && pureText === selectedName) {
+                            td.style.backgroundColor = "rgba(52, 152, 219, 0.2)";
+                            td.style.color = "var(--dark-blue)";
+                            td.style.fontWeight = "bold";
+                        }
+
+                        td.innerHTML = cellText;
+                        tr.appendChild(td);
+
+                    });
+                    table.appendChild(tr);
+                });
+                area.appendChild(table);
+            }
+            area.classList.add('show');
+            adjustScale();
+        }, useFade ? 100 : 0);
+    }
+
+    function changeMonth(diff) {
+        viewMonth += diff;
+        if (viewMonth > 12) { viewMonth = 1; viewYear++; }
+        if (viewMonth < 1) { viewMonth = 12; viewYear--; }
+        initCalendar(true);
+    }
+
+    window.addEventListener('resize', adjustScale);
+
+    // [중요] 외부 상대 경로 JSON 파일을 비동기 로드하도록 onload 변경
+    window.onload = () => {
+        initServerLinks();
+
+        fetch(DATA_URL)
+            .then(response => {
+                if (!response.ok) throw new Error("JSON 파일을 가져오지 못했습니다.");
+                return response.json();
+            })
+            .then(data => {
+                scheduleData = data;
+                renderNameSelector();
+                initCalendar(true);
+                adjustScale();
+
+                document.getElementById('server-hostname').innerText = window.location.hostname;
+            })
+            .catch(error => {
+                console.error("데이터 로드 중 에러 발생:", error);
+                document.getElementById('calendarArea').innerText = "근무 데이터를 불러오는 데 실패했습니다.";
+            });
+    };
+</script>
 </body>
 </html>

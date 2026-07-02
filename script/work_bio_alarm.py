@@ -70,7 +70,7 @@ TASK_FILE = os.path.join(DATA_DIR, f"{TEAM_NAME}_task.json")
 LOG_FILE = os.path.join(LOG_DIR, f"schedule_alarm.log")
 
 # 4. NTFY 채널 설정
-NTFY_WORK_URL = "https://ntfy.sh/sbhmission_new"  # 기존 알림 대상 채널 유지
+NTFY_WORK_URL = "https://ntfy.sh/sbhmission"  # 기존 알림 대상 채널 유지
 NTFY_TEST_URL = "https://ntfy.sh/sbhtest"      # 테스트 모드 전송 채널
 NTFY_SYSTEM_URL = "https://ntfy.sh/oxinotify"  # 시스템 에러 알림 채널
 # ==============================================================================

@@ -69,7 +69,7 @@ DAY_WORK_ALERT_TIME = "07:30"     # 주간 / 당직 근무 시 알림 시간
 NIGHT_WORK_ALERT_TIME = "16:30"   # 야간 근무 시 알림 시간
 
 # 5. NTFY 채널 설정
-NTFY_WORK_URL = f"https://ntfy.sh/sbh{TEAM_NAME}_new"  # 정상 알림 채널 (sbhbio, sbhpower 등)
+NTFY_WORK_URL = f"https://ntfy.sh/sbh{TEAM_NAME}"  # 정상 알림 채널 (sbhbio, sbhpower 등)
 NTFY_TEST_URL = "https://ntfy.sh/sbhtest"         # 테스트 모드 전송 채널
 NTFY_SYSTEM_URL = "https://ntfy.sh/oxinotify"      # 시스템 에러 알림 채널
 # ==============================================================================

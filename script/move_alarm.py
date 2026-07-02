@@ -20,7 +20,7 @@ LOG_DIR = os.path.join(BASE_DIR, 'logs')
 GOOGLE_SPREADSHEET_ID = "144VXK8vUlIu2HPOOYJUmm324mdu7oG8bAfkIdf7ckqM"
 
 # 2. NTFY 발송 채널 트리거
-NTFY_TOPIC = "sbhmission_new"
+NTFY_TOPIC = "sbhmission"
 NTFY_URL = f"https://ntfy.sh/{NTFY_TOPIC}"
 NTFY_TEST_URL = "https://ntfy.sh/sbhtest"
 
