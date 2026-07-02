@@ -14,6 +14,7 @@
             --today-border: #ff0096; /* 화려한 네온 핑크 */
             --today-glow: rgba(255, 0, 150, 0.2);
             --holiday-pink: #e84393;
+	    --holiday-red: #d63031;
         }
 
         body {
@@ -70,6 +71,13 @@
 
         .is-sun { color: var(--holiday-pink) !important; }
         .is-sat { color: #2980b9 !important; }
+
+        .is-holiday { 
+	    color: var(--holiday-red) !important; 
+            font-weight: 800 !important; 
+            background-color: #fff5f5 !important; /* 칸 배경에 은은한 붉은 감도 추가 */
+	}
+
         .other-month { opacity: 0.2; }
 
         @keyframes pulseGlow {
