@@ -1,0 +1,59 @@
+아. 좀 다른대, row 를 보면 "날짜, "공휴일", "근무" , "각담당구역(글로벌, 지원, 외곽1...)" 이렇게 있잖아. 이걸, "날짜", "공휴일" 부분은 기존에 표시했던 대로 일요일은 핑크, 공휴일은 붉은색, 토요일은 파란계통 으로 표시하고, 그 아래 부분 "근무", "각담당구역"은 "근무" 형태에따라서 배경색과 비슷한 진한색으로 구분하자는 말이야
+
+아! 제가 의도를 정확하게 파악했습니다. 요약하자면 달력 한 칸을 가로질러서 위아래를 쪼개는 것이 아니라, 행(Row)별로 성격을 완전히 분리하자는 말씀이시군요!
+
+상단 행 (row-날짜, row-공휴일): 근무 형태가 무엇이든 상관없이, 오직 요일/달력 기준으로만 글씨색(핑크/레드/블루)을 입힌다.
+
+하단 행 (row-근무 및 각 담당 구역 행들): 요일이 무엇이든 상관없이, 오직 근무 형태(주간/야간/당직/비번/휴무)에 따라서 배경색과 어울리는 진한 글씨색을 입힌다.
+
+이 방식은 자바스크립트에서 조건문을 복잡하게 짤 필요 없이, CSS에서 행(Row)별로 권한을 확실하게 나누어 주면 깔끔하게 해결됩니다!
+
+현재 가지고 계신 코드의 <style> 태그 내부를 아래 코드로 교체해 주시면 완전히 원하시던 모습으로 정돈됩니다.
+
+🛠️ CSS 스타일 최종 정돈 코드 (<style> 태그 내부 교체)
+기존의 .is-sun, .is-sat, .is-holiday 및 .special-holiday-... 관련 스타일을 지우시고, 아래 코드로 깔끔하게 덮어써 보세요.
+
+CSS
+/* ==============================================================================
+   1. [상단] 날짜 및 공휴일 행 - 요일별 글씨색만 철저하게 적용 (근무 형태 무시)
+   ============================================================================== */
+.row-날짜 td.is-sun, .row-공휴일 td.is-sun { color: var(--holiday-pink) !important; font-weight: normal !important; }
+.row-날짜 td.is-sat, .row-공휴일 td.is-sat { color: #2980b9 !important; font-weight: normal !important; }
+.row-날짜 td.is-holiday, .row-공휴일 td.is-holiday { color: var(--holiday-red) !important; font-weight: normal !important; }
+
+/* 평일 날짜/공휴일은 기본 검은색 글씨 */
+.row-날짜 td:not(.is-sun):not(.is-sat):not(.is-holiday),
+.row-공휴일 td:not(.is-sun):not(.is-sat):not(.is-holiday) { color: #333 !important; }
+
+
+/* ==============================================================================
+   2. [하단] 근무 및 담당구역 행 - 오직 "근무 형태"에 따른 배경색 & 진한 글씨색 세트
+   ============================================================================== */
+
+/* [주간] 연노랑 배경 + 진한 갈색/황토색 글씨 */
+.status-주간 { background-color: #fff9db !important; }
+.week-block tr:not(.row-날짜):not(.row-공휴일) td.status-주간 { color: #876400 !important; font-weight: 500 !important; }
+
+/* [야간] 맑은 하늘색 배경 + 진한 네이비/블루 글씨 */
+.status-야간 { background-color: #e0f2fe !important; }
+.week-block tr:not(.row-날짜):not(.row-공휴일) td.status-야간 { color: #0369a1 !important; font-weight: 500 !important; }
+
+/* [당직] 연초록 배경 + 숲속 진한 녹색 글씨 (원하셨던 딥그린!) */
+.status-당직 { background-color: #ebfbee !important; }
+.week-block tr:not(.row-날짜):not(.row-공휴일) td.status-당직 { color: #065f46 !important; font-weight: 600 !important; }
+
+/* [비번] 밝은 연회색 배경 + 무난한 챠콜/진회색 글씨 */
+.status-비번 { background-color: #f1f3f5 !important; }
+.week-block tr:not(.row-날짜):not(.row-공휴일) td.status-비번 { color: #495057 !important; font-weight: 500 !important; }
+
+/* [휴무] 조금 더 진한 회색 배경 + 확실히 구분되는 묵직한 다크 그레이 글씨 */
+.status-휴무 { background-color: #dee2e6 !important; }
+.week-block tr:not(.row-날짜):not(.row-공휴일) td.status-휴무 { color: #212529 !important; font-weight: 600 !important; }
+✨ 이렇게 바뀝니다 (시각적 대통합)
+예를 들어 일요일인데 당직 근무인 날을 보시면:
+
+맨 위 날짜와 공휴일 칸은 일요일의 아이덴티티를 살려 이쁜 핑크색 글씨로 표시됩니다.
+
+그 아래 근무, 지원동, 글로벌 등 모든 칸은 일요일의 핑크색 글씨가 적용되지 않고, 당직 세트인 연초록 배경 + 진한 녹색 글씨로 묵직하고 깔끔하게 통일됩니다.
+
+CSS에서 :not(.row-날짜):not(.row-공휴일)이라는 문법을 사용해 상단 두 줄을 보호해 두었기 때문에, 자바스크립트는 그대로 둔 채 스타일시트만 교체해도 원하시던 규칙이 완벽하게 적용됩니다!
