@@ -96,10 +96,12 @@
 .status-비번 { background-color: #f1f3f5 !important; }
 .week-block tr:not(.row-날짜):not(.row-공휴일) td.status-비번 { color: #495057 !important; font-weight: 500 !important; }
 
-/* [휴무] 조금 더 진한 회색 배경 + 묵직한 다크 그레이 글씨 */
+/* [휴무] 조금 더 진한 회색 배경 + 🌟선명한 진빨강 글씨와 세미 볼드 적용 */
 .status-휴무 { background-color: #dee2e6 !important; }
-.week-block tr:not(.row-날짜):not(.row-공휴일) td.status-휴무 { color: #212529 !important; font-weight: 600 !important; }
-
+.week-block tr:not(.row-날짜):not(.row-공휴일) td.status-휴무 { 
+    color: var(--holiday-red) !important; /* 공휴일의 선명한 진빨강 색상 */
+    font-weight: 600 !important;          /* 800보다 얇고 기본보다 도톰한 세미 볼드 */
+}
 
 
 
