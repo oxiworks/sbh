@@ -346,17 +346,6 @@
 
 
 
-                        // 📌 여기에 특별 조건 코드가 추가되었습니다!
-                        // 📌 특별 조건 1: 주말, 공휴일 휴무일 때 특별 스타일
-                        if (shiftType === "휴무" && (isHoliday || dateObj.getDay() === 0 || dateObj.getDay() === 6)) {
-                            td.classList.add('special-holiday-off');
-                        }
-
-                        // 📌 특별 조건 2: 주말, 공휴일 당직일 때 특별 스타일 (진한 녹색)
-                        if (shiftType === "당직" && (isHoliday || dateObj.getDay() === 0 || dateObj.getDay() === 6)) {
-                            td.classList.add('special-holiday-duty');
-                        }
-
                         let cellText = "";
                         if (label === "날짜") {
                             cellText = `${dateObj.getMonth()+1}/${dateObj.getDate()}(${weekNames[dateObj.getDay()]})`;
