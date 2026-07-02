@@ -1,3 +1,8 @@
+[특이사항]
+대부분 systemd, crond, 스크립트나, html 파일에서 내용 확인이 됨
+다만, github 업로드 스크립트(upload.sh) 에서 파일 업로드 시, index.html 을 404.html 로 복사하는 작업을 수행함
+이는, github 구조적으로 sbh.oxisnail.top/teamname 시도 시, 해당 폴더가 없으면 404 에러를 띄우는대 404.html 파일이 있으면 그파일을 띄우게 됨. 404.html 을 index.html 처럼 사용하게 하기 위함임(github 의 구조적인 제약)
+
 [스크립트 내역서]
 1. [CRON] schedule_json_gen.py
    - cron 등 스케줄 정의 필요
